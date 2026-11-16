@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun GoldPosApp() {
     var selected by remember { mutableStateOf("Dashboard") }
